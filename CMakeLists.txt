@@ -18,7 +18,7 @@ FetchContent_Declare(
 )
 FetchContent_MakeAvailable(raylib)
 
-add_executable(DanmakuDojo src/main.cpp)
+add_executable(DanmakuDojo src/main.cpp src/Game.cpp src/Player.cpp)
 target_link_libraries(DanmakuDojo PRIVATE raylib)
 
 if(MSVC)
