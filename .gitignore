@@ -1,0 +1,10 @@
+build/
+out/
+.vs/
+.idea/
+.vscode/.cmake/
+CMakeUserPresets.json
+*.user
+*.suo
+
+assets/placeholder
